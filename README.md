@@ -1,16 +1,91 @@
-# React + Vite
+# Fahad Musa — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive and professional developer portfolio built to showcase my skills, projects, experience, education and contact information.
 
-Currently, two official plugins are available:
+## Live Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ **Live Website:** https://fahad-musa-portfolio.netlify.app
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hi, I'm **Fahad Musa**, a Frontend & MERN Stack Developer passionate about building modern, responsive and user-friendly web applications.
 
-## Expanding the ESLint configuration
+This portfolio presents my development skills, selected projects, work experience and ways to connect with me.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Modern and responsive design
+- Fully responsive across desktop, tablet and mobile
+- Smooth animations with Framer Motion
+- Interactive typing animation
+- Professional dark-themed UI
+- Skills and technology showcase
+- Projects section
+- Work experience section
+- Education section
+- Downloadable CV
+- GitHub and LinkedIn integration
+- Functional contact form using EmailJS
+- Mobile navigation menu
+- Smooth section navigation
+
+## Technologies Used
+
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript
+- Framer Motion
+- React Icons
+- React Type Animation
+- EmailJS
+
+## Sections
+
+### Home
+Introduction, developer role, short description, CV download, projects button and social links.
+
+### About
+A brief introduction and overview of my development journey.
+
+### Skills
+Technologies and tools I work with.
+
+### Projects
+A showcase of my selected development projects.
+
+### Experience
+My practical experience in website development projects and chat-based sales.
+
+### Education
+My educational background and qualifications.
+
+### Contact
+Contact information and a functional contact form powered by EmailJS.
+
+## Featured Projects
+
+### DineFlow POS
+A professional restaurant Point of Sale system designed for managing restaurant operations, including orders, menu, inventory, customers, suppliers, payments, tables, kitchen operations, reports and more.
+
+### Premium Shine Detailing
+A modern responsive website for a mobile car detailing business with services, pricing, gallery, booking functionality and customer information.
+
+### Dental Clinic Website
+A professional and responsive website designed for a dental clinic to showcase services, information and provide an easy way for patients to get in touch.
+
+## Contact
+
+**Email:** fahadmusa725@gmail.com
+
+**LinkedIn:**  
+https://www.linkedin.com/in/fahad-musa-ba30ab355
+
+**GitHub:**  
+https://github.com/fahadmusa725
+
+## License
+
+This project is created for personal portfolio and showcase purposes.
+
+© 2026 Fahad Musa. All Rights Reserved.
