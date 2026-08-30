@@ -10,6 +10,9 @@ import {
   FaGithub,
   FaBootstrap,
   FaDatabase,
+  FaFileWord,
+  FaFileExcel,
+  FaFilePowerpoint,
 } from "react-icons/fa";
 
 import {
@@ -102,12 +105,12 @@ const skills = [
     color: "text-blue-400",
     level: 78,
   },
- {
-  name: "SQL Server",
-  icon: <FaDatabase size={32} />,
-  color: "text-red-600",
-  level: 82,
-},
+  {
+    name: "SQL Server",
+    icon: <FaDatabase size={32} />,
+    color: "text-red-600",
+    level: 82,
+  },
   {
     name: "C#",
     icon: <SiSharp size={32} />,
@@ -126,6 +129,26 @@ const skills = [
     color: "text-white",
     level: 90,
   },
+
+  // Microsoft Office
+  {
+    name: "Microsoft Word",
+    icon: <FaFileWord size={32} />,
+    color: "text-blue-500",
+    level: 88,
+  },
+  {
+    name: "Microsoft Excel",
+    icon: <FaFileExcel size={32} />,
+    color: "text-green-500",
+    level: 85,
+  },
+  {
+    name: "Microsoft PowerPoint",
+    icon: <FaFilePowerpoint size={32} />,
+    color: "text-orange-500",
+    level: 85,
+  },
 ];
 
 const Skills = () => {
@@ -133,10 +156,11 @@ const Skills = () => {
     <section id="skills" className="bg-slate-950 py-24 px-6 lg:px-10">
       <div className="max-w-7xl mx-auto">
 
+        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: .7 }}
+          transition={{ duration: 0.7 }}
           viewport={{ once: true }}
           className="text-center mb-16"
         >
@@ -152,6 +176,7 @@ const Skills = () => {
           </p>
         </motion.div>
 
+        {/* Skills */}
         <div className="grid md:grid-cols-2 gap-8">
 
           {skills.map((skill, index) => (

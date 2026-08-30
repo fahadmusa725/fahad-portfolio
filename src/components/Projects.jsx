@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import posImg from "../assets/images/pos.png";
 import dentalImg from "../assets/images/dental.png";
 import detailingImg from "../assets/images/detailing.png";
+import booksyImg from "../assets/images/booksy.png";
 
 const projects = [
   {
@@ -11,8 +12,8 @@ const projects = [
     description:
       "A complete MERN Stack Restaurant POS System featuring dashboard, billing, inventory management, authentication and responsive user interface.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/fahadmusa725/dineflow-pos",
-    live: "#",
+    github: "https://github.com/fahadmusa725/pos-saas",
+    live: "https://pos-saas-topaz.vercel.app",
   },
 
   {
@@ -21,7 +22,7 @@ const projects = [
     description:
       "A modern responsive dental clinic website with services, doctors, appointments, testimonials and contact page.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    github: "https://github.com/fahadmusa725",
+    github: "https://github.com/fahadmusa725/Dental-Clinic-Website",
     live: "https://dental-eproject.netlify.app/",
   },
 
@@ -31,8 +32,18 @@ const projects = [
     description:
       "A professional mobile car detailing website with service booking, pricing, gallery and responsive design.",
     tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/fahadmusa725",
+    github: "https://github.com/fahadmusa725/PremiumShineDetailing",
     live: "https://premiumshinedetailing.netlify.app/",
+  },
+
+  {
+    title: "Booksy — Online E-Book & Book Store",
+    image: booksyImg,
+    description:
+      "A complete PHP and MySQL-based online bookstore for selling books in PDF, Hard Copy and CD formats, with shopping, orders and management features.",
+    tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/fahadmusa725/Booksy",
+    live: null,
   },
 ];
 
@@ -70,7 +81,6 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {projects.map((project, index) => (
-
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 40 }}
@@ -79,6 +89,8 @@ const Projects = () => {
               viewport={{ once: true }}
               className="bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden hover:border-cyan-400 hover:-translate-y-2 transition-all duration-300"
             >
+
+              {/* Project Image */}
 
               <img
                 src={project.image}
@@ -96,31 +108,41 @@ const Projects = () => {
                   {project.description}
                 </p>
 
+                {/* Technologies */}
+
                 <div className="flex flex-wrap gap-2 mb-6">
 
                   {project.tech.map((item, i) => (
-
                     <span
                       key={i}
                       className="px-3 py-1 rounded-full bg-cyan-400/20 text-cyan-400 text-sm"
                     >
                       {item}
                     </span>
-
                   ))}
 
                 </div>
 
+                {/* Buttons */}
+
                 <div className="flex gap-4">
 
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex-1 text-center bg-cyan-400 text-slate-900 py-3 rounded-xl font-semibold hover:bg-cyan-300 duration-300"
-                  >
-                    Live Demo
-                  </a>
+                  {project.live ? (
+                    <a
+                      href={project.live}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex-1 text-center bg-cyan-400 text-slate-900 py-3 rounded-xl font-semibold hover:bg-cyan-300 duration-300"
+                    >
+                      Live Demo
+                    </a>
+                  ) : (
+                    <span
+                      className="flex-1 text-center bg-slate-800 text-slate-500 py-3 rounded-xl font-semibold cursor-not-allowed"
+                    >
+                      Coming Soon
+                    </span>
+                  )}
 
                   <a
                     href={project.github}
@@ -136,7 +158,6 @@ const Projects = () => {
               </div>
 
             </motion.div>
-
           ))}
 
         </div>

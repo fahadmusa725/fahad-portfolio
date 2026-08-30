@@ -3,7 +3,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 const education = [
   {
-    degree: "Highly Diploma in Software Engineering",
+    degree: "Advanced Diploma in Software Engineering",
     institute: "Aptech Institute",
     duration: "2024 - Present",
     description:
