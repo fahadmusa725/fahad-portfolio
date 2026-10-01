@@ -4,8 +4,19 @@ import posImg from "../assets/images/pos.png";
 import dentalImg from "../assets/images/dental.png";
 import detailingImg from "../assets/images/detailing.png";
 import booksyImg from "../assets/images/booksy.png";
+import hmsImg from "../assets/images/hms.png";
 
 const projects = [
+  {
+    title: "Hospital Management System — SaaS",
+    image: hmsImg,
+    description:
+      "A full-featured MERN Stack Hospital Management System SaaS designed to support multiple hospitals on a single platform with comprehensive hospital management features.",
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/fahadmusa725/HMS-Project",
+    live: "https://hms-project-hhtz.vercel.app",
+  },
+
   {
     title: "DineFlow POS System",
     image: posImg,
