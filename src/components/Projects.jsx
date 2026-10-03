@@ -34,7 +34,7 @@ const projects = [
       "A modern responsive dental clinic website featuring services, doctors, appointments, testimonials and a contact section.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     github: "https://github.com/fahadmusa725/Dental-Clinic-Website",
-    live: "https://dental-eproject.netlify.app/",
+    live: "https://dental-clinic-website-jade-kappa.vercel.app",
   },
 
   {
@@ -44,7 +44,7 @@ const projects = [
       "A professional mobile car detailing website featuring service booking, pricing, gallery and a responsive design.",
     tech: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/fahadmusa725/PremiumShineDetailing",
-    live: "https://premiumshinedetailing.netlify.app/",
+    live: "https://premiumshinedetailing.vercel.app",
   },
 
   {
