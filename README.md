@@ -1,4 +1,4 @@
-# Fahad Musa — Developer Portfolio
+# Fahad Musa - Developer Portfolio
 
 A modern, responsive and professional developer portfolio built to showcase my skills, projects, experience, education and contact information.
 
@@ -73,6 +73,12 @@ A modern responsive website for a mobile car detailing business with services, p
 
 ### Dental Clinic Website
 A professional and responsive website designed for a dental clinic to showcase services, information and provide an easy way for patients to get in touch.
+
+### Hospital Management System
+A full-featured MERN Stack Hospital Management System SaaS designed to support multiple hospitals on a single platform, with comprehensive hospital management features.
+
+### Booksy - Online E-Book & Book Store
+A complete PHP and MySQL-based online bookstore for selling books in PDF, hard copy and CD formats, with shopping, orders and management features.
 
 ## Contact
 

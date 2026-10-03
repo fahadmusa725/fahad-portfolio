@@ -16,15 +16,12 @@ const Hero = () => {
       id="home"
       className="relative min-h-screen flex items-center overflow-hidden pt-24 md:pt-24"
     >
-      {/* Background Glow */}
 
       <div className="absolute top-0 left-0 w-80 h-80 bg-cyan-500/20 blur-[120px] rounded-full"></div>
 
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-600/20 blur-[150px] rounded-full"></div>
 
       <div className="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-16 items-center">
-
-        {/* LEFT */}
 
         <motion.div
           initial={{ opacity: 0, x: -80 }}
@@ -72,8 +69,6 @@ const Hero = () => {
             Express.js and MongoDB.
           </p>
 
-          {/* Buttons */}
-
           <div className="flex flex-wrap gap-5 mt-10">
 
             <a
@@ -93,8 +88,6 @@ const Hero = () => {
             </a>
 
           </div>
-
-          {/* Social */}
 
           <div className="flex gap-5 mt-10">
 
@@ -126,8 +119,6 @@ const Hero = () => {
           </div>
 
         </motion.div>
-
-        {/* RIGHT */}
 
         <motion.div
           initial={{ opacity: 0, x: 80 }}

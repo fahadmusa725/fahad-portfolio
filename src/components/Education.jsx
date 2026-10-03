@@ -35,8 +35,6 @@ const Education = () => {
     >
       <div className="max-w-6xl mx-auto">
 
-        {/* Heading */}
-
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -54,8 +52,6 @@ const Education = () => {
             My academic background and learning journey in Software Engineering.
           </p>
         </motion.div>
-
-        {/* Cards */}
 
         <div className="space-y-8">
 

@@ -32,7 +32,7 @@ const Contact = () => {
         setLoading(false);
       })
       .catch((error) => {
-        console.log(error);
+        console.error(error);
         alert("Something went wrong!");
         setLoading(false);
       });
@@ -44,8 +44,6 @@ const Contact = () => {
       className="py-24 bg-slate-950"
     >
       <div className="max-w-7xl mx-auto px-6">
-
-        {/* Heading */}
 
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -67,8 +65,6 @@ const Contact = () => {
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12">
-
-          {/* Left Side */}
 
           <motion.div
             initial={{ opacity: 0, x: -40 }}
@@ -128,8 +124,6 @@ const Contact = () => {
             </div>
 
           </motion.div>
-
-          {/* Right Side */}
 
           <motion.form
             ref={form}

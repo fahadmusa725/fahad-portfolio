@@ -8,8 +8,6 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-start">
 
-          {/* Logo */}
-
           <div>
 
             <h2 className="text-3xl font-bold text-white">
@@ -22,8 +20,6 @@ const Footer = () => {
             </p>
 
           </div>
-
-          {/* Quick Links */}
 
           <div className="text-center">
 
@@ -67,8 +63,6 @@ const Footer = () => {
 
           </div>
 
-          {/* Social */}
-
           <div className="flex flex-col items-center">
 
             <h3 className="text-xl font-semibold text-white mb-4">
@@ -107,8 +101,6 @@ const Footer = () => {
           </div>
 
         </div>
-
-        {/* Bottom */}
 
         <div className="border-t border-slate-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-5">
 

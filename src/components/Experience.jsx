@@ -31,8 +31,6 @@ const Experience = () => {
     >
       <div className="max-w-6xl mx-auto">
 
-        {/* Heading */}
-
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -50,8 +48,6 @@ const Experience = () => {
             My journey as a Software Engineering student and Full Stack Developer.
           </p>
         </motion.div>
-
-        {/* Timeline */}
 
         <div className="relative border-l-2 border-cyan-400 pl-8 space-y-10">
 

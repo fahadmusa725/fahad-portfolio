@@ -130,7 +130,6 @@ const skills = [
     level: 90,
   },
 
-  // Microsoft Office
   {
     name: "Microsoft Word",
     icon: <FaFileWord size={32} />,
@@ -156,7 +155,6 @@ const Skills = () => {
     <section id="skills" className="bg-slate-950 py-24 px-6 lg:px-10">
       <div className="max-w-7xl mx-auto">
 
-        {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -176,7 +174,6 @@ const Skills = () => {
           </p>
         </motion.div>
 
-        {/* Skills */}
         <div className="grid md:grid-cols-2 gap-8">
 
           {skills.map((skill, index) => (

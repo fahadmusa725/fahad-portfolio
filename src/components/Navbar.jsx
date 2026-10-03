@@ -19,16 +19,12 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-xl bg-slate-950/70 border-b border-slate-800">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 h-20">
 
-        {/* Logo */}
-
         <a
           href="#"
           className="text-3xl font-extrabold tracking-wide text-white"
         >
           Fahad<span className="text-cyan-400">.</span>
         </a>
-
-        {/* Desktop Menu */}
 
         <nav className="hidden md:flex gap-8">
 
@@ -44,8 +40,6 @@ const Navbar = () => {
 
         </nav>
 
-        {/* Resume */}
-
         <a
   href={cv}
   download
@@ -54,8 +48,6 @@ const Navbar = () => {
   Resume
 </a>
 
-        {/* Mobile Icon */}
-
         <button
           onClick={() => setMenuOpen(!menuOpen)}
           className="text-white text-2xl md:hidden"
@@ -63,8 +55,6 @@ const Navbar = () => {
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
-
-      {/* Mobile Menu */}
 
       {menuOpen && (
         <div className="md:hidden bg-slate-900 border-t border-slate-800">

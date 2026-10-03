@@ -8,7 +8,7 @@ import hmsImg from "../assets/images/hms.png";
 
 const projects = [
   {
-    title: "Hospital Management System — SaaS",
+    title: "Hospital Management System: SaaS",
     image: hmsImg,
     description:
       "A full-featured MERN Stack Hospital Management System SaaS designed to support multiple hospitals on a single platform with comprehensive hospital management features.",
@@ -48,7 +48,7 @@ const projects = [
   },
 
   {
-    title: "Booksy — Online E-Book & Book Store",
+    title: "Booksy: Online E-Book & Book Store",
     image: booksyImg,
     description:
       "A complete PHP and MySQL-based online bookstore for selling books in PDF, hard copy and CD formats, with shopping, orders and management features.",
@@ -65,8 +65,6 @@ const Projects = () => {
       className="bg-slate-900 py-24 px-6 lg:px-10"
     >
       <div className="max-w-7xl mx-auto">
-
-        {/* Heading */}
 
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -87,8 +85,6 @@ const Projects = () => {
           </p>
         </motion.div>
 
-        {/* Project Cards */}
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {projects.map((project, index) => (
@@ -101,8 +97,6 @@ const Projects = () => {
               className="bg-slate-950 border border-slate-800 rounded-2xl overflow-hidden hover:border-cyan-400 hover:-translate-y-2 transition-all duration-300"
             >
 
-              {/* Project Image */}
-
               <img
                 src={project.image}
                 alt={project.title}
@@ -111,19 +105,13 @@ const Projects = () => {
 
               <div className="p-6">
 
-                {/* Project Title */}
-
                 <h3 className="text-2xl font-bold text-white mb-3">
                   {project.title}
                 </h3>
 
-                {/* Project Description */}
-
                 <p className="text-slate-400 leading-7 mb-6">
                   {project.description}
                 </p>
-
-                {/* Technologies */}
 
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tech.map((item, i) => (
@@ -136,11 +124,7 @@ const Projects = () => {
                   ))}
                 </div>
 
-                {/* Buttons */}
-
                 <div className="flex gap-4">
-
-                  {/* Live Demo */}
 
                   <a
                     href={project.live}
@@ -150,8 +134,6 @@ const Projects = () => {
                   >
                     Live Demo
                   </a>
-
-                  {/* GitHub */}
 
                   <a
                     href={project.github}

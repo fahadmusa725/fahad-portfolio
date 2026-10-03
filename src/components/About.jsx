@@ -53,8 +53,6 @@ const About = () => {
 
         <div className="grid lg:grid-cols-2 gap-14 items-center">
 
-          {/* Left */}
-
           <motion.div
             initial={{opacity:0,x:-60}}
             whileInView={{opacity:1,x:0}}
@@ -98,8 +96,6 @@ const About = () => {
             </div>
 
           </motion.div>
-
-          {/* Right */}
 
           <motion.div
             initial={{opacity:0,x:60}}
