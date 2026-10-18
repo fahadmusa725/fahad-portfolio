@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 
+import projectflowImg from "../assets/images/projectflow.png";
 import posImg from "../assets/images/pos.png";
 import dentalImg from "../assets/images/dental.png";
 import detailingImg from "../assets/images/detailing.png";
@@ -8,8 +9,22 @@ import hmsImg from "../assets/images/hms.png";
 
 const projects = [
   {
+    title: "ProjectFlow: Project Management Tool",
+    image: projectflowImg,
+    width: 1440,
+    height: 900,
+    description:
+      "A Trello-style project management app with boards, drag and drop tasks, comments, notifications, member-based project access and real-time board sync powered by Ably.",
+    tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind CSS", "Ably"],
+    github: "https://github.com/fahadmusa725/CodeAlpha_ProjectFlow",
+    live: "https://fahad-projectflow.vercel.app",
+  },
+
+  {
     title: "Hospital Management System: SaaS",
     image: hmsImg,
+    width: 1787,
+    height: 707,
     description:
       "A full-featured MERN Stack Hospital Management System SaaS designed to support multiple hospitals on a single platform with comprehensive hospital management features.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
@@ -20,6 +35,8 @@ const projects = [
   {
     title: "DineFlow POS System",
     image: posImg,
+    width: 1645,
+    height: 870,
     description:
       "A complete MERN Stack Restaurant POS System featuring dashboard, billing, inventory management, authentication and a responsive user interface.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
@@ -30,6 +47,8 @@ const projects = [
   {
     title: "Dental Clinic Website",
     image: dentalImg,
+    width: 1885,
+    height: 918,
     description:
       "A modern responsive dental clinic website featuring services, doctors, appointments, testimonials and a contact section.",
     tech: ["HTML", "CSS", "JavaScript", "Bootstrap"],
@@ -40,6 +59,8 @@ const projects = [
   {
     title: "Premium Shine Detailing",
     image: detailingImg,
+    width: 1815,
+    height: 911,
     description:
       "A professional mobile car detailing website featuring service booking, pricing, gallery and a responsive design.",
     tech: ["HTML", "CSS", "JavaScript"],
@@ -50,6 +71,8 @@ const projects = [
   {
     title: "Booksy: Online E-Book & Book Store",
     image: booksyImg,
+    width: 1892,
+    height: 920,
     description:
       "A complete PHP and MySQL-based online bookstore for selling books in PDF, hard copy and CD formats, with shopping, orders and management features.",
     tech: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
@@ -100,6 +123,9 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
+                width={project.width}
+                height={project.height}
+                loading="lazy"
                 className="w-full h-56 object-cover"
               />
 
