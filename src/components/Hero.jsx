@@ -7,7 +7,7 @@ import {
   FaArrowRight,
 } from "react-icons/fa";
 
-import hero from "../assets/images/hero.png";
+import hero from "../assets/images/hero.webp";
 import cv from "../assets/images/CV.pdf";
 
 const Hero = () => {
@@ -133,8 +133,8 @@ const Hero = () => {
             <img
               src={hero}
               alt="Fahad Musa"
-              width="2458"
-              height="3264"
+              width="940"
+              height="1248"
               loading="eager"
               fetchpriority="high"
               className="relative w-[260px] sm:w-[320px] lg:w-[470px] rounded-full border-4 border-cyan-400 shadow-2xl object-cover"
