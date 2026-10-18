@@ -13,11 +13,13 @@ const Contact = () => {
   const form = useRef();
 
   const [loading, setLoading] = useState(false);
+  const [status, setStatus] = useState({ type: "", message: "" });
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     setLoading(true);
+    setStatus({ type: "", message: "" });
 
     emailjs
       .sendForm(
@@ -27,13 +29,13 @@ const Contact = () => {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
-        alert("Message sent successfully!");
+        setStatus({ type: "success", message: "Message sent successfully!" });
         form.current.reset();
         setLoading(false);
       })
       .catch((error) => {
         console.error(error);
-        alert("Something went wrong!");
+        setStatus({ type: "error", message: "Something went wrong!" });
         setLoading(false);
       });
   };
@@ -174,6 +176,20 @@ const Contact = () => {
             >
               {loading ? "Sending..." : "Send Message"}
             </button>
+
+            {status.message && (
+              <div
+                role="status"
+                aria-live="polite"
+                className={`p-4 rounded-xl text-center text-sm font-medium ${
+                  status.type === "success"
+                    ? "bg-green-500/10 border border-green-500/30 text-green-400"
+                    : "bg-red-500/10 border border-red-500/30 text-red-400"
+                }`}
+              >
+                {status.message}
+              </div>
+            )}
 
           </motion.form>
 
