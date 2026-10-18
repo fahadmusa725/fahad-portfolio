@@ -21,7 +21,7 @@ const About = () => {
     {
       icon: <FaCode size={30} />,
       title: "Tech Stack",
-      text: "React, JavaScript, Node.js, Express.js, MongoDB, Tailwind CSS.",
+      text: "React, Next.js, TypeScript, Node.js, Express.js, MongoDB, Tailwind CSS.",
     },
     {
       icon: <FaGraduationCap size={30} />,
@@ -60,12 +60,12 @@ const About = () => {
             viewport={{once:true}}
           >
             <h3 className="text-3xl font-bold text-white mb-6">
-              MERN Stack & Frontend Developer
+              Full Stack Developer
             </h3>
 
             <p className="text-slate-400 leading-8 text-lg">
               I'm Fahad Musa, a passionate Software Engineering student and
-              MERN Stack Developer who enjoys creating clean, modern and
+              Full Stack Developer who enjoys creating clean, modern and
               user-friendly web applications. My focus is writing maintainable
               code and building responsive interfaces with React and Tailwind CSS.
             </p>
@@ -80,14 +80,14 @@ const About = () => {
             <div className="grid grid-cols-2 gap-5 mt-10">
 
               <div className="bg-slate-800 rounded-2xl p-6 border border-slate-700">
-                <h4 className="text-4xl font-bold text-cyan-400">4+</h4>
+                <h4 className="text-4xl font-bold text-cyan-400">6+</h4>
                 <p className="text-slate-300 mt-2">
                   Completed Projects
                 </p>
               </div>
 
               <div className="bg-slate-800 rounded-2xl p-6 border border-slate-700">
-                <h4 className="text-4xl font-bold text-cyan-400">15+</h4>
+                <h4 className="text-4xl font-bold text-cyan-400">20+</h4>
                 <p className="text-slate-300 mt-2">
                   Technologies
                 </p>

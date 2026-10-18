@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center overflow-hidden pt-24 md:pt-24"
+      className="relative min-h-screen flex items-center overflow-hidden pt-24 md:pt-24 pb-16 md:pb-24"
     >
 
       <div className="absolute top-0 left-0 w-80 h-80 bg-cyan-500/20 blur-[120px] rounded-full"></div>
@@ -31,7 +31,7 @@ const Hero = () => {
 
           <div className="mt-16 md:mt-6 lg:mt-0 mb-6">
             <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-sm sm:text-base font-medium">
-              👋 Welcome To My Portfolio
+              Welcome To My Portfolio
             </span>
           </div>
 
@@ -48,11 +48,11 @@ const Hero = () => {
 
             <TypeAnimation
               sequence={[
-                "Frontend Developer",
-                1800,
-                "React Developer",
+                "Full Stack Developer",
                 1800,
                 "MERN Stack Developer",
+                1800,
+                "React Developer",
                 1800,
               ]}
               wrapper="span"
@@ -63,10 +63,7 @@ const Hero = () => {
           </div>
 
           <p className="mt-8 text-slate-400 text-lg leading-8 max-w-xl">
-            Passionate Frontend & MERN Stack Developer focused on
-            building beautiful, responsive and high-performance web
-            applications using React, JavaScript, Node.js,
-            Express.js and MongoDB.
+            Passionate Full Stack Developer focused on building beautiful, responsive and high-performance web applications using React, Next.js, TypeScript, Node.js, Express.js and MongoDB.
           </p>
 
           <div className="flex flex-wrap gap-5 mt-10">
@@ -93,6 +90,7 @@ const Hero = () => {
 
             <a
               href="mailto:fahadmusa725@gmail.com"
+              aria-label="Email"
               className="w-14 h-14 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center text-white hover:bg-cyan-400 hover:text-slate-900 duration-300"
             >
               <FaEnvelope size={22} />
@@ -102,6 +100,7 @@ const Hero = () => {
               href="https://github.com/fahadmusa725"
               target="_blank"
               rel="noreferrer"
+              aria-label="GitHub"
               className="w-14 h-14 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center text-white hover:bg-cyan-400 hover:text-slate-900 duration-300"
             >
               <FaGithub size={22} />
@@ -111,6 +110,7 @@ const Hero = () => {
               href="https://www.linkedin.com/in/fahad-musa-ba30ab355"
               target="_blank"
               rel="noreferrer"
+              aria-label="LinkedIn"
               className="w-14 h-14 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center text-white hover:bg-cyan-400 hover:text-slate-900 duration-300"
             >
               <FaLinkedin size={22} />
@@ -133,6 +133,10 @@ const Hero = () => {
             <img
               src={hero}
               alt="Fahad Musa"
+              width="2458"
+              height="3264"
+              loading="eager"
+              fetchpriority="high"
               className="relative w-[260px] sm:w-[320px] lg:w-[470px] rounded-full border-4 border-cyan-400 shadow-2xl object-cover"
             />
 

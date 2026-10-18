@@ -8,7 +8,7 @@ A modern, responsive and professional developer portfolio built to showcase my s
 
 ## About
 
-Hi, I'm **Fahad Musa**, a Frontend & MERN Stack Developer passionate about building modern, responsive and user-friendly web applications.
+Hi, I'm **Fahad Musa**, a Full Stack Developer passionate about building modern, responsive and user-friendly web applications.
 
 This portfolio presents my development skills, selected projects, work experience and ways to connect with me.
 
@@ -64,6 +64,9 @@ My educational background and qualifications.
 Contact information and a functional contact form powered by EmailJS.
 
 ## Featured Projects
+
+### ProjectFlow: Project Management Tool
+A Trello-style project management app with boards, drag and drop tasks, comments, notifications, member-based project access and real-time board sync powered by Ably.
 
 ### DineFlow POS
 A professional restaurant Point of Sale system designed for managing restaurant operations, including orders, menu, inventory, customers, suppliers, payments, tables, kitchen operations, reports and more.

@@ -15,7 +15,7 @@ const Footer = () => {
             </h2>
 
             <p className="text-slate-400 mt-4 leading-7">
-              MERN Stack & Frontend Developer passionate about building
+              Full Stack Developer passionate about building
               modern, responsive and user-friendly web applications.
             </p>
 
@@ -73,6 +73,7 @@ const Footer = () => {
 
               <a
                 href="mailto:fahadmusa725@gmail.com"
+                aria-label="Email"
                 className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-cyan-400 hover:text-slate-900 duration-300"
               >
                 <FaEnvelope />
@@ -82,6 +83,7 @@ const Footer = () => {
                 href="https://github.com/fahadmusa725"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="GitHub"
                 className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-cyan-400 hover:text-slate-900 duration-300"
               >
                 <FaGithub />
@@ -91,6 +93,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/fahad-musa-ba30ab355"
                 target="_blank"
                 rel="noreferrer"
+                aria-label="LinkedIn"
                 className="w-12 h-12 rounded-full bg-slate-800 flex items-center justify-center hover:bg-cyan-400 hover:text-slate-900 duration-300"
               >
                 <FaLinkedin />

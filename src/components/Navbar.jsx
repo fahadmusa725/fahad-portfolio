@@ -50,6 +50,8 @@ const Navbar = () => {
 
         <button
           onClick={() => setMenuOpen(!menuOpen)}
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={menuOpen}
           className="text-white text-2xl md:hidden"
         >
           {menuOpen ? <FaTimes /> : <FaBars />}
