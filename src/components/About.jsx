@@ -11,12 +11,12 @@ const About = () => {
     {
       icon: <FaLaptopCode size={30} />,
       title: "Experience",
-      text: "Building modern responsive websites and MERN application.",
+      text: "Building full stack web applications with the MERN stack and Next.js.",
     },
     {
       icon: <FaProjectDiagram size={30} />,
       title: "Projects",
-      text: "Premium Shine, Dental Clinic, DineFlow POS and more.",
+      text: "Hospital Management SaaS, DineFlow POS, ProjectFlow and more.",
     },
     {
       icon: <FaCode size={30} />,
@@ -26,7 +26,7 @@ const About = () => {
     {
       icon: <FaGraduationCap size={30} />,
       title: "Education",
-      text: "Highly Diploma in Software Engineering.",
+      text: "Advanced Diploma in Software Engineering.",
     },
   ];
 
@@ -64,17 +64,11 @@ const About = () => {
             </h3>
 
             <p className="text-slate-400 leading-8 text-lg">
-              I'm Fahad Musa, a passionate Software Engineering student and
-              Full Stack Developer who enjoys creating clean, modern and
-              user-friendly web applications. My focus is writing maintainable
-              code and building responsive interfaces with React and Tailwind CSS.
+              I'm Fahad Musa, a Software Engineering student and Full Stack Developer who builds clean, modern and user-friendly web applications. I mainly work with the MERN stack and Next.js, and I care about readable code, responsive interfaces and APIs that are easy to maintain.
             </p>
 
             <p className="text-slate-400 leading-8 text-lg mt-6">
-              I have built multiple real-world projects including a complete
-              Restaurant POS System, a Dental Clinic Website and a Premium Shine
-              Detailing business website. I enjoy learning new technologies and
-              continuously improving my development skills.
+              I have built a multi-tenant Hospital Management System, a multi-restaurant POS system and a real-time project management tool, along with business websites for a dental clinic and a car detailing service. I keep learning new technologies and improving how I design and ship software.
             </p>
 
             <div className="grid grid-cols-2 gap-5 mt-10">

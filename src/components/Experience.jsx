@@ -6,9 +6,10 @@ const experiences = [
     duration: "Aug 2024 - Present",
     location: "Remote - Practice Based",
     description: [
-      "Developed websites using HTML, CSS, JavaScript and basic PHP. ",
-      "Worked on individual and team-based projects, creating responsive layouts and basic interactivity.",
-      "Deployed projects online using Netlify.",
+      "Built and deployed full stack applications with the MERN stack, including a multi-tenant Hospital Management System and a multi-restaurant POS system.",
+      "Built ProjectFlow with Next.js, TypeScript and MongoDB, with real-time board sync using Ably.",
+      "Worked on individual and team projects, from responsive frontends to REST APIs, authentication and database design.",
+      "Deployed projects on Vercel and Netlify.",
     ],
   },
   {
