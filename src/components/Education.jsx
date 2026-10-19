@@ -12,7 +12,7 @@ const education = [
 
   {
     degree: "Intermediate (Commerce)",
-    College: "Siraj-ud-Daulah Govt. College",
+    institute: "Siraj-ul-Daulah Government Degree College, F.C. Area, Karachi",
     duration: "2021 - 2023",
     description:
       "Completed Intermediate education with a Commerce background.",
@@ -20,7 +20,7 @@ const education = [
 
   {
     degree: "Matriculation (Computer Science)",
-    School: "J.M.A Boys and Girls School",
+    institute: "JMA Boys and Girls Secondary School Campus 2",
     duration: "2019 - 2021",
     description:
       "Completed Secondary School Education with strong academic performance.",
@@ -68,7 +68,7 @@ const Education = () => {
 
               <div className="flex items-start gap-5">
 
-                <div className="w-14 h-14 rounded-full bg-cyan-400 flex items-center justify-center text-slate-900">
+                <div className="w-14 h-14 rounded-full bg-cyan-400 flex items-center justify-center text-slate-900 shrink-0">
                   <FaGraduationCap size={24} />
                 </div>
 
