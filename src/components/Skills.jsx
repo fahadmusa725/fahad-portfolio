@@ -127,12 +127,12 @@ const Skills = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: index * 0.04 }}
                     viewport={{ once: true }}
-                    className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex items-center gap-3 hover:border-cyan-400 hover:-translate-y-1 transition-all duration-300"
+                    className="bg-slate-900 border border-slate-800 rounded-xl p-4 flex items-center gap-3 min-w-0 hover:border-cyan-400 hover:-translate-y-1 transition-all duration-300"
                   >
-                    <div className={skill.color}>
+                    <div className={`${skill.color} shrink-0`}>
                       {skill.icon}
                     </div>
-                    <span className="text-white font-medium text-sm sm:text-base">
+                    <span className="text-white font-medium text-sm sm:text-base min-w-0 break-words">
                       {skill.name}
                     </span>
                   </motion.div>
