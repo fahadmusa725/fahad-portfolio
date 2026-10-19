@@ -33,7 +33,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-slate-900 py-24 px-6 lg:px-10"
+      className="bg-slate-900 py-24 px-6 lg:px-10 overflow-x-clip"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -64,7 +64,7 @@ const About = () => {
             </h3>
 
             <p className="text-slate-400 leading-8 text-lg">
-              I'm Fahad Musa, a Software Engineering student and Full Stack Developer who builds clean, modern and user-friendly web applications. I mainly work with the MERN stack and Next.js, and I care about readable code, responsive interfaces and APIs that are easy to maintain.
+              I'm Fahad Musa, a Software Engineering student and Full Stack Developer who builds clean, modern and user-friendly web applications. I mainly work with the MERN stack and Next.js and I care about readable code, responsive interfaces and APIs that are easy to maintain.
             </p>
 
             <p className="text-slate-400 leading-8 text-lg mt-6">

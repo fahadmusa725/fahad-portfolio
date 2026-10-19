@@ -43,7 +43,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-24 bg-slate-950"
+      className="py-24 bg-slate-950 overflow-x-clip"
     >
       <div className="max-w-7xl mx-auto px-6">
 
