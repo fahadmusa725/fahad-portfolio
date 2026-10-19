@@ -126,7 +126,7 @@ const Projects = () => {
                 width={project.width}
                 height={project.height}
                 loading="lazy"
-                className="w-full h-56 object-cover"
+                className="w-full aspect-[2/1] object-cover object-top"
               />
 
               <div className="p-6">
