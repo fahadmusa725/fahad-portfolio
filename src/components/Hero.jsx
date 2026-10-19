@@ -136,7 +136,7 @@ const Hero = () => {
               width="940"
               height="1248"
               loading="eager"
-              fetchpriority="high"
+              fetchPriority="high"
               className="relative w-[260px] sm:w-[320px] lg:w-[470px] rounded-full border-4 border-cyan-400 shadow-2xl object-cover"
             />
 
